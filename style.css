@@ -178,6 +178,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
 
-
+.additional-button:hover {
+    color: var(--wild-strawberry-text);
+    border: 1px solid var(--wild-strawberry-text);
 }
