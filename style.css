@@ -8,6 +8,8 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
 }
 
 
@@ -76,7 +78,7 @@ a {
 
 #goat-text-size {
     font-size: 95px;
-    font-weight: 800px;
+    font-weight: 800;
 }
 
 .secondary-text {
@@ -105,4 +107,20 @@ a {
 
 .secondary-button {
     background: #4EC5F7;
+}
+
+/* Online games styles */
+.online-games {
+    text-align: center;
+}
+
+.card-container {
+    display: grid;
+    margin: 48px 240px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+}
+
+.card img {
+    width: 100%;
 }
