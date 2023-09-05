@@ -51,6 +51,13 @@ a {
     font-weight: 500;
 }
 
+nav>ul>li a:hover {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 2px;
+    border: 1px solid var(--secondary-text);
+}
+
 .wild-strawberry-text {
     color: var(--wild-strawberry-text);
 }
