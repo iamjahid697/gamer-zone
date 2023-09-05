@@ -231,3 +231,15 @@ footer>div>ul>li>a {
     font-size: 16px;
     font-weight: 500;
 }
+
+.footer-icons {
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+
+.icon-color {
+    color: #FFF;
+    font-size: 40px;
+    margin: 20px;
+}
