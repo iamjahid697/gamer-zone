@@ -56,6 +56,11 @@ a {
     padding: 38px 0px 39px 0px;
 }
 
+.youtube-icon {
+    color: red;
+    padding: 0 10px;
+}
+
 /* banner part */
 .banner {
     display: flex;
@@ -191,6 +196,11 @@ footer {
     text-align: center;
     padding: 100px;
     background-color: var(--primary-text);
+}
+
+.gamer-icon {
+    color: var(--wild-strawberry-text);
+    padding-right: 10px;
 }
 
 .footer-heading {
