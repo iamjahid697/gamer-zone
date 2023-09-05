@@ -1,3 +1,16 @@
+:root {
+    --primary-text: #0B0223;
+    --secondary-text: #534C64;
+}
+
+.gradient-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 body,
 ul,
 li {
@@ -7,7 +20,7 @@ li {
 }
 
 nav {
-    background-color: yellow;
+    background-color: #FFF;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -39,4 +52,57 @@ a {
     font-size: 45px;
     font-weight: 700;
     padding: 38px 0px 39px 0px;
+}
+
+/* banner part */
+.banner {
+    display: flex;
+}
+
+.banner-half-width {
+    width: 50%;
+}
+
+.banner-contents {
+    padding: 168px 244px;
+}
+
+.primary-text {
+    color: var(--primary-text);
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+#goat-text-size {
+    font-size: 95px;
+    font-weight: 800px;
+}
+
+.secondary-text {
+    color: var(--secondary-text);
+}
+
+/*All button styles */
+.button {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.button-styles {
+    padding: 21px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    border: none;
+}
+
+.primary-button {
+    color: #FFF;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+
+.secondary-button {
+    background: #4EC5F7;
 }
